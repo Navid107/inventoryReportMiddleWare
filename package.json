@@ -1,0 +1,9 @@
+{
+  "name": "amazon-suppressed-search",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "axios": "^1.6.7"
+  }
+}
