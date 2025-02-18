@@ -4,6 +4,7 @@ import { getAccessToken } from "./auth.js";
 import { promisify } from "util";
 import zlib from "zlib";
 import axios from "axios";
+import InventoryReport from './models/InventoryReport.js';
 
 const gunzip = promisify(zlib.gunzip);
 
@@ -162,6 +163,14 @@ async function downloadAndDecompressReport(url) {
     console.log(
       "Report saved as report.gz (compressed) and report.json (decompressed)"
     );
+
+    // Save to MongoDB
+    const report = new InventoryReport({
+      content: JSON.parse(content) // Assuming the content is JSON
+    });
+    await report.save();
+    console.log("Report saved to MongoDB");
+
     return content;
   } catch (error) {
     console.error("Error downloading or decompressing report:", error.message);
