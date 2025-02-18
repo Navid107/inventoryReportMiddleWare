@@ -179,10 +179,4 @@ async function downloadAndDecompressReport(url) {
 }
 
 // Run the report document fetch and download
-getReport()
-  .then((report) => {
-    console.log("Report process completed");
-  })
-  .catch((error) => {
-    console.error("Failed to process report:", error);
-  });
+export { getReport };
