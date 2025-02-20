@@ -1,0 +1,6229 @@
+{
+  "reportSpecification" : {
+    "reportType" : "GET_VENDOR_INVENTORY_REPORT",
+    "reportOptions" : {
+      "reportPeriod" : "WEEK",
+      "sellingProgram" : "RETAIL",
+      "distributorView" : "SOURCING"
+    },
+    "lastUpdatedDate" : "2025-02-18",
+    "dataStartTime" : "2025-02-09",
+    "dataEndTime" : "2025-02-15",
+    "marketplaceIds" : [ "ATVPDKIKX0DER" ]
+  },
+  "inventoryAggregate" : [ {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 787,
+    "receiveFillRate" : 0.0064,
+    "averageVendorLeadTimeDays" : 15.73,
+    "sellThroughRate" : 0.262,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.1636,
+    "netReceivedInventoryCost" : {
+      "amount" : 61051.79,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 1343,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 250915.56,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 5058,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 3192.63,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 80,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 198775.32,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 3527,
+    "unhealthyInventoryCost" : {
+      "amount" : 22343.58,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 628,
+    "uft" : null
+  } ],
+  "inventoryByAsin" : [ {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0DQS4WLY3",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.9342,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 3174.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 69,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B09TWZX2SX",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 306.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 3,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0DR2MBBZB",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.875,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 162.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 6,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 0,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 0,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CHDGDGL6",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.2,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 767.84,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 16,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 767.84,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 16,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B08VN88TPP",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B08VN6GC2G",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 106.01,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 1,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CHDGZKBJ",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0625,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 1759.56,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 44,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 39.99,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 1,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 1759.56,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 44,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0DT19J12R",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 124.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 2,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0DH6RMM91",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 360.81,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 19,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 360.81,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 19,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B09TGH2DGV",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.1429,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 112.20,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 6,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 112.20,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 6,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B09PJWR15H",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 2700.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 6,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 2700.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 6,
+    "unhealthyInventoryCost" : {
+      "amount" : 900.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 2,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B06XHZXLSC",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0175,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 4759.30,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 70,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 0,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CRQQN23T",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 374.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 11,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 374.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 11,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0DRJN9NP1",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 233.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 5,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0DH6KS92Q",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 474.75,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 25,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 474.75,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 25,
+    "unhealthyInventoryCost" : {
+      "amount" : 398.77,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 21,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B08VMLNFXC",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.3333,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 130.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 1,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 167.39,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 1,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 142.20,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 1,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 167.39,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 1,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0DSPS4YDV",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 93.20,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 4,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B09TWZ8PDH",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 526.50,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 27,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 526.50,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 27,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CKD9SJZB",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 2778.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 20,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 2778.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 20,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0DH6Z8VJB",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 1120.41,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 59,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 1120.41,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 59,
+    "unhealthyInventoryCost" : {
+      "amount" : 626.64,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 33,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B08VN2BPLV",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 875.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 7,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B08VNJKRST",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0DS4F9CHC",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 1577.60,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 29,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CHDFDTYR",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : -63.98,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : -2,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 10396.75,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 325,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 31.99,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 1,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 10396.75,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 325,
+    "unhealthyInventoryCost" : {
+      "amount" : 7463.46,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 233,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B08VN6GC19",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0B5YRXPPH",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : -24.99,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : -1,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0DQXWCDHW",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 62.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 2,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0B5YS5CMK",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.7626,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 4785.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 165,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 1450.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 50,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 29.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 1,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 1450.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 50,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0BRJSJMRW",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 271.98,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 2,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 135.99,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 1,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 271.98,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 2,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B08VNQFCR5",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 64,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.4681,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 1.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 300.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 2,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 3750.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 25,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 3150.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 21,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B09TGDXBQK",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 51.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 2,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CKDGZHSW",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 4471.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 17,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 4471.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 17,
+    "unhealthyInventoryCost" : {
+      "amount" : 3156.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 12,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B08VNBJRVY",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 150.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 1,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B09TGDDTNX",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B09TGBWW4Q",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 170.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 1,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 170.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 1,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B09TGD6BY2",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 68.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 4,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 68.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 4,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CKDHYR59",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.1667,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 3213.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 21,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 3213.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 21,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0B995YFHG",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 215.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 1,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B08VNJH2WB",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 221.76,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 3,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 0,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 0,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0B995YGP9",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : null,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.6667,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 0,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 0,
+    "unhealthyInventoryCost" : null,
+    "unhealthyInventoryUnits" : null,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0DR2QFCJG",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 132.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 2,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CRQR16H3",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 854.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 61,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 854.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 61,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B08VN2BBLB",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 50.64,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 1,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CRQRF49P",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.1186,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 1192.50,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 159,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 1147.50,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 153,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0DTK4TLFY",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.8182,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 1111.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 11,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B08Y86HHSY",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0702,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 1271.47,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 53,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 0,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B09TGF2NDP",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 34.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 1,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CKDD5YDP",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 2639.88,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 12,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 2639.88,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 12,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CFGDWCW5",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 202.99,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 1,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 202.99,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 1,
+    "unhealthyInventoryCost" : {
+      "amount" : 202.99,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 1,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CHDJZZ3S",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.5213,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 3194.55,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 45,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 141.98,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 2,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 3194.55,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 45,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CHDMF8WV",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : -45.99,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : -1,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 0,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 0,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CFGF8829",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 219.99,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 1,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 219.99,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 1,
+    "unhealthyInventoryCost" : {
+      "amount" : 219.99,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 1,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0C7719QWW",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 412.50,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 5,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0DR2QFLVR",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 294.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 4,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CFGDLKH1",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 108.99,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 1,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 108.99,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 1,
+    "unhealthyInventoryCost" : {
+      "amount" : 108.99,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 1,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0DH6KTMCS",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 339.80,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 20,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 339.80,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 20,
+    "unhealthyInventoryCost" : {
+      "amount" : 237.85,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 14,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B09TGF2NF3",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : null,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : null,
+    "unhealthyInventoryUnits" : null,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CKDCN2ND",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0313,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 4525.69,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 31,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 4525.69,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 31,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0B5YR89BH",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.8571,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 156.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 6,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 26.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 1,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 0,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B08VNQFCNV",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B08VN895CT",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CHDFDTYC",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.2353,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 1511.37,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 63,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 1511.37,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 63,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0B5YSKXNB",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.9899,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 7840.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 196,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CHDCN4BW",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 45,
+    "receiveFillRate" : 0.0444,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0966,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 1.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 10788.70,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 130,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 82.99,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 1,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 10788.70,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 130,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B08VN358FQ",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 750.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 6,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0DTHRKMXH",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 272.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 5,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CHDGL9WT",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 46.99,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 1,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 46.99,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 1,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CKDKDTWW",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 107.99,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 1,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B09TGCJLB2",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B08VN895DR",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : null,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 0,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 0,
+    "unhealthyInventoryCost" : null,
+    "unhealthyInventoryUnits" : null,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CHD8V5K8",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : null,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 0,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 39.99,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 1,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 0,
+    "unhealthyInventoryCost" : null,
+    "unhealthyInventoryUnits" : null,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0B5YSRRWN",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.1776,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 129.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 6,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 5100.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 204,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 175.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 7,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 0,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CRQRRTRS",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0C5BBTZKZ",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 2025.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 9,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0B5YTKGSZ",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 450.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 15,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CXP5RK2X",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 460,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 14.82,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 2800.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 50,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 1680.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 30,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 0,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0C521KTVW",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.2,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 548.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 4,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 548.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 4,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B08VMQP93D",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.039,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 3762.29,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 71,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 55.79,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 1,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 3762.29,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 71,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B08Y866VMY",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.056,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 3190.67,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 133,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 0,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CRQQFT7H",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : null,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 68.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 2,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 68.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 2,
+    "unhealthyInventoryCost" : null,
+    "unhealthyInventoryUnits" : null,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B08VMWQTFH",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 141.98,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 2,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B06X8YH44C",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0252,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 1269.29,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 121,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 0,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0B5YR5RZD",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.461,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : -57.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : -1,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 4503.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 79,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 114.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 2,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 4503.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 79,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0DR2S486G",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 101.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 2,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CKD61YS9",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 1763.64,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 36,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 1763.64,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 36,
+    "unhealthyInventoryCost" : {
+      "amount" : 1567.68,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 32,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CHDK9K7M",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : null,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 51.99,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 1,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 51.99,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 1,
+    "unhealthyInventoryCost" : null,
+    "unhealthyInventoryUnits" : null,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0DQV2DRMS",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : -464.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : -4,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CHDFDTYW",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : null,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 127.98,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 2,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 63.99,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 1,
+    "unhealthyInventoryCost" : null,
+    "unhealthyInventoryUnits" : null,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0DQXV6338",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.5,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 52.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 2,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B08VNDCQRK",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 239.20,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 4,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0B5YZ4XQW",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0794,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 1997.46,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 54,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 73.98,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 2,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 1997.46,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 54,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0B5YSR9CH",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 901.59,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 41,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0DR2SMVRG",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 232.50,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 5,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0BRJV78X6",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CHDB83CM",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 1074.75,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 25,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 1074.75,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 25,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B08VN5JHK6",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B08VNTW4M4",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CHCZHHQX",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.2333,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 1333.77,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 23,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 1333.77,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 23,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B09TGBVWG2",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 102.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 2,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B08VMZ5ZXW",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CRQQQG5H",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 250.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 20,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 250.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 20,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CKDG5VQ4",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 2579.80,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 20,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 2579.80,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 20,
+    "unhealthyInventoryCost" : {
+      "amount" : 1676.87,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 13,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CKDHYR4V",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 145.99,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 1,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0DQSHFMJN",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.9592,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 2208.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 48,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B09TWZMD28",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 30.60,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 1,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0DRJQ1LTL",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 792.20,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 17,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0DR2SZ6LG",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0B5YQCLWZ",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 31.50,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 1,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CHDJC62R",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0405,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 122.97,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 3,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 2582.37,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 63,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 368.91,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 9,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 0,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0DQXV28NM",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.7143,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 156.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 6,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B08VNBLQJH",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 68.92,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 1,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0B5YQ2YW1",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 3588.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 138,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0C51X4CRD",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 375.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 5,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CRQRKDXY",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 7.50,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 1,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 15.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 2,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 7.50,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 1,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0DQSHC8GN",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 620.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 10,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0B5YRB6VN",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 13.00,
+    "sellThroughRate" : 0.2237,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 377.82,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 18,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 1007.52,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 48,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 167.92,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 8,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 0,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B09TGFGY7K",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0556,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 361.25,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 17,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 361.25,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 17,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CHDMQQW7",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0317,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 6750.87,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 183,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 0,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B08VMYDRF8",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 66.94,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 2,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B08VN6GC2R",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 48,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.1117,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 1.0,
+    "netReceivedInventoryCost" : {
+      "amount" : -63.99,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : -1,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 11006.20,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 180,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 63.99,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 1,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 6399.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 100,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CKDL3YT4",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : -138.90,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : -1,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 0,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 0,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CRQS5WCR",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.1636,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : -15.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : -2,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 315.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 42,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 292.50,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 39,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B09TGDV2S7",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 132.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 4,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 132.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 4,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CFG9KX38",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 158.99,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 1,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 158.99,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 1,
+    "unhealthyInventoryCost" : {
+      "amount" : 158.99,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 1,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CHD77HC5",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.9474,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 683.82,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 18,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CHCY94XX",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : null,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 0,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 44.99,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 1,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 0,
+    "unhealthyInventoryCost" : null,
+    "unhealthyInventoryUnits" : null,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0DS4N9HQ2",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 932.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 20,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CHD8S287",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : -36.99,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : -1,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 0,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 0,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B09TGGZC3J",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0238,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 2613.34,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 41,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 2613.34,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 41,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0C51LHL41",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0508,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 2695.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 17,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 9275.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 56,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 4550.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 26,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0B5YR38NK",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.5961,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 168.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 6,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 2632.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 94,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 336.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 12,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 0,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B08VNDCQR7",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 175.62,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 3,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B08VNJPR5T",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0886,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : -147.99,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : -1,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 10211.31,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 69,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 147.99,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 1,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 10211.31,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 69,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0DQXT25XQ",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.7143,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 217.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 7,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CHD8QMHV",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.1429,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 63.98,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 2,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 383.88,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 12,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 383.88,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 12,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CRQR2TWX",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : null,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 15.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 2,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 15.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 2,
+    "unhealthyInventoryCost" : null,
+    "unhealthyInventoryUnits" : null,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0DSJCSF3L",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.5,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 93.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 2,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0DQS4QZTL",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.8333,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 231.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 6,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CHDN83J4",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 1793.61,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 39,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 45.99,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 1,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 1793.61,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 39,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CHDJX78S",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : null,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 0,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 51.99,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 1,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 0,
+    "unhealthyInventoryCost" : null,
+    "unhealthyInventoryUnits" : null,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0DH6Z5YMQ",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0149,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 6616.69,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 331,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 179.91,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 9,
+    "unhealthyInventoryCost" : {
+      "amount" : 5037.23,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 252,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CHDB8M5L",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.8,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 140.97,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 3,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 0,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 46.99,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 1,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 0,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CHDG15DR",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.6964,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : -147.98,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : -2,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 1035.86,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 14,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 73.99,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 1,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 0,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CHDG9DT3",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 2807.16,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 84,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 2807.16,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 84,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0DM6ST6SB",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 125.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 1,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 0,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0DM6TT865",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 64.99,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 1,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 0,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B08VNBLQJC",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0909,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 518.97,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 3,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 5009.70,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 30,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 5009.70,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 30,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0DT1D3XQ2",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 124.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 2,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0C51ZQLJ5",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.8333,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 711.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 9,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 0,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 0,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B09TGFXMPC",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 328.95,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 9,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 328.95,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 9,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CRQR542R",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 5894.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 421,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 5894.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 421,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B09TGDZRC9",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 382.50,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 10,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 382.50,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 10,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CKDHBPHV",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 72,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0964,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 1.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 5925.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 75,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 79.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 1,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 5925.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 75,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0BRJV36CS",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 1231.72,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 28,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 43.99,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 1,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 1231.72,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 28,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CRQQRP4G",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : null,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 224.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 16,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 224.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 16,
+    "unhealthyInventoryCost" : null,
+    "unhealthyInventoryUnits" : null,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0B5YQTQRW",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 22.99,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 1,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CKD9V46P",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : null,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 242.04,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 2,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 242.04,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 2,
+    "unhealthyInventoryCost" : null,
+    "unhealthyInventoryUnits" : null,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CKDV3436",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0B5YRKYQ1",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 1900.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 76,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0B98RNVNW",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0476,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 175.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 1,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 17900.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 101,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 15975.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 90,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B09TGBV6HQ",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.1429,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 204.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 6,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 204.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 6,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CFGCD961",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 269.98,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 2,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 269.98,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 2,
+    "unhealthyInventoryCost" : {
+      "amount" : 134.99,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 1,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CFGD25BQ",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 201.99,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 1,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 201.99,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 1,
+    "unhealthyInventoryCost" : {
+      "amount" : 201.99,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 1,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CKDPY8GY",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0332,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 15093.96,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 204,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 15093.96,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 204,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0DR2RVLX9",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 115.50,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 3,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0DQSN8VWG",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.8952,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 3696.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 96,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 0,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 38.50,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 1,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 0,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CHDMJZ7R",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 48,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.72,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 1.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 377.93,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 7,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 377.93,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 7,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B08VN3TTGX",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.963,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 4550.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 26,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 224.99,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 1,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 224.99,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 1,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0DTHRKW8L",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 489.60,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 9,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CNQCVCZ3",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 16,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.025,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 1.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 8267.61,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 39,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 8267.61,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 39,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B08VMZ5ZXV",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0B5YTN28G",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.4779,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 2769.25,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 79,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 3230.50,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 100,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 483.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 15,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 1982.50,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 61,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B08VMTHKVF",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CHDJ2DV8",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0051,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 9784.10,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 391,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 49.98,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 2,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 9609.17,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 384,
+    "unhealthyInventoryCost" : {
+      "amount" : 251.15,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 10,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0C51LLW3B",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 12937.50,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 75,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 12937.50,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 75,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B08VMZ5ZY1",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 134.56,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 2,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0C51ZK6VX",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 34,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0865,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 1.0,
+    "netReceivedInventoryCost" : {
+      "amount" : -71.50,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : -1,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 6649.50,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 93,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 71.50,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 1,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 6578.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 92,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CHDN5P7D",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : -34.99,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : -1,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 0,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 0,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CKDLBGQL",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 1.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 73.92,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 1,
+    "sellableOnHandInventoryCost" : null,
+    "sellableOnHandInventoryUnits" : null,
+    "unsellableOnHandInventoryCost" : null,
+    "unsellableOnHandInventoryUnits" : null,
+    "aged90PlusDaysSellableInventoryCost" : null,
+    "aged90PlusDaysSellableInventoryUnits" : null,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0DM6YJTNW",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 0.00,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 0,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 175.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 1,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 0,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  }, {
+    "startDate" : "2025-02-09",
+    "endDate" : "2025-02-15",
+    "asin" : "B0CMTKKCVR",
+    "sourceableProductOutOfStockRate" : null,
+    "procurableProductOutOfStockRate" : null,
+    "openPurchaseOrderUnits" : 0,
+    "receiveFillRate" : 0.0,
+    "averageVendorLeadTimeDays" : 17.08,
+    "sellThroughRate" : 0.0,
+    "unfilledCustomerOrderedUnits" : null,
+    "vendorConfirmationRate" : 0.0,
+    "netReceivedInventoryCost" : {
+      "amount" : 2200.00,
+      "currencyCode" : "USD"
+    },
+    "netReceivedInventoryUnits" : 40,
+    "sellableOnHandInventoryCost" : {
+      "amount" : 550.00,
+      "currencyCode" : "USD"
+    },
+    "sellableOnHandInventoryUnits" : 10,
+    "unsellableOnHandInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unsellableOnHandInventoryUnits" : 0,
+    "aged90PlusDaysSellableInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "aged90PlusDaysSellableInventoryUnits" : 0,
+    "unhealthyInventoryCost" : {
+      "amount" : 0.00,
+      "currencyCode" : "USD"
+    },
+    "unhealthyInventoryUnits" : 0,
+    "uft" : null
+  } ]
+}

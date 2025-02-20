@@ -1,6 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import router from './route.js';
+import authMiddleware from './authMiddleware.js';
 
 dotenv.config();
 

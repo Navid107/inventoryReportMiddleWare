@@ -1,44 +1,27 @@
-import dotenv from 'dotenv';
-import axios from 'axios';
+import crypto from 'crypto';
+import InventoryReport from './models/InventoryReport.js';
 
-dotenv.config();
+// Function to generate a random token
+export const generateToken = () => {
+    return crypto.randomBytes(32).toString('hex');
+};
 
-export const getAccessToken = async () => {
+// Function to generate a token, save it in the database, and send it to the user
+export const createAndSendToken = async (req, res, reportData) => {
     try {
-        const authUrl = 'https://api.amazon.com/auth/o2/token';
-        const payload = {
-            grant_type: 'refresh_token',
-            refresh_token: process.env.AMZ_REFRESH_TOKEN,
-            client_id: process.env.AMZ_CLIENT_ID,
-            client_secret: process.env.AMZ_CLIENT_SECRET
-        };
+        const token = generateToken();
 
-        const response = await axios.post(authUrl, new URLSearchParams(payload), {
-            headers: {
-                'Content-Type': 'application/x-www-form-urlencoded'
-            }
+        // Save the token and report data to the database
+        const report = new InventoryReport({
+            token: token,
+            content: reportData,
         });
+        await report.save();
 
-        return response.data.access_token;
+        // Send the token back to the user
+        res.status(200).json({ message: 'Token generated and saved.', token: token });
     } catch (error) {
-        console.error('Error getting access token:', error.response?.data || error.message);
-        throw error;
+        console.error('Error generating or saving token:', error.message);
+        res.status(500).send('Error generating or saving token.');
     }
 };
-
-// Example usage
-const main = async () => {
-    try {
-        const accessToken = await getAccessToken();
-        console.log('Access Token:', accessToken);
-        return accessToken;
-    } catch (error) {
-        console.error('Main error:', error.message);
-        throw error;
-    }
-};
-
-// Only run main if this file is run directly
-if (process.argv[1] === new URL(import.meta.url).pathname) {
-    main();
-} 

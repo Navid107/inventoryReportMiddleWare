@@ -1,26 +1,33 @@
 import dotenv from "dotenv";
 import { promises as fs } from "fs";
-import { getAccessToken } from "./auth.js";
+import { generateToken } from "./auth.js";
 import { promisify } from "util";
 import zlib from "zlib";
 import axios from "axios";
-import InventoryReport from './models/InventoryReport.js';
+import InventoryReport from "./models/InventoryReport.js";
 
 const gunzip = promisify(zlib.gunzip);
 
 dotenv.config();
 
-function generateDates(durationDays = 7) {
+function generateDates() {
   const now = new Date();
-  const endDate = new Date(now);
-  endDate.setDate(now.getDate() + durationDays);
+  const dayOfWeek = now.getDay(); // 0 (Sunday) to 6 (Saturday)
+
+  // Calculate the last Saturday
+  const lastSaturday = new Date(now);
+  lastSaturday.setDate(now.getDate() - dayOfWeek - 1);
+
+  // Calculate the previous Sunday (6 days before the last Saturday)
+  const previousSunday = new Date(lastSaturday);
+  previousSunday.setDate(lastSaturday.getDate() - 6);
 
   // Format dates in ISO 8601 format
   const formatDate = (date) => date.toISOString();
 
   return {
-    dataStartTime: formatDate(now),
-    dataEndTime: formatDate(endDate),
+    dataStartTime: formatDate(previousSunday),
+    dataEndTime: formatDate(lastSaturday),
   };
 }
 
@@ -29,10 +36,15 @@ const dates = generateDates();
 const dataStartTime = dates.dataStartTime;
 const dataEndTime = dates.dataEndTime;
 
-async function getReport() {
+async function getReport(req) {
+  console.log("Starting session for getReport function");
   try {
-    const accessToken = await getAccessToken();
-    console.log("Access Token:", accessToken);
+    const accessToken = req.headers["x-amz-access-token"];
+    if (!accessToken) {
+      throw new Error("x-amz-access-token is required");
+    }
+
+    console.log("Access token received:", accessToken);
 
     const payload = {
       marketplaceIds: ["ATVPDKIKX0DER"],
@@ -46,9 +58,10 @@ async function getReport() {
       dataEndTime: dataEndTime,
     };
 
-    // Make the API request to create a report
+    console.log("Payload for report creation:", payload);
+
     const response = await axios({
-      method: "post",
+      method: "POST",
       url: "https://sellingpartnerapi-na.amazon.com/reports/2021-06-30/reports",
       headers: {
         "x-amz-access-token": accessToken,
@@ -57,28 +70,51 @@ async function getReport() {
       data: payload,
     });
 
-    console.log(
-      "Report creation response:",
-      JSON.stringify(response.data, null, 2)
-    );
-    setTimeout(() => {
-      getReportId(response.data.reportId);
-    }, 30 * 1000);
-    return response.data;
-  } catch (error) {
-    console.error("Error creating report:");
-    if (error.response) {
-      console.error("Status:", error.response.status);
-      console.error("Response:", error.response.data);
+    console.log("Report creation response:", JSON.stringify(response.data, null, 2));
+
+    if (response.data.reportId) {
+      const programToken = generateToken();
+      console.log("Generated program token:", programToken);
+      const report = new InventoryReport({
+        token: programToken,
+        content: response.data,
+      });
+      console.log("Response data to be saved:", JSON.stringify(response.data, null, 2));
+      const savedReport = await report.save();
+      console.log("Saved report:", savedReport);
+      await getReportId(response.data.reportId, programToken, accessToken);
+
+      // End session after all operations
+      endSession();
+      return { token: programToken };
     } else {
-      console.error(error.message);
+      throw new Error("Report ID not found in the response");
     }
-    throw error;
+  } catch (error) {
+    console.error("Error in getReport:", error.message);
+
+    // Save the error to the database
+    const errorReport = new InventoryReport({
+      token: generateToken(),
+      content: { error: error.message },
+    });
+    await errorReport.save();
+
+    // End session in case of error
+    endSession();
+    return { error: error.message };
   }
 }
-async function getReportId(reportId) {
+
+function endSession() {
+  console.log("Ending session and performing cleanup...");
+  cleanup();
+  console.log("Session ended.");
+}
+
+async function getReportId(reportId, programToken, accessToken) {
+  console.log("Entering getReportId function with reportId:", reportId);
   try {
-    const accessToken = await getAccessToken();
     const response = await axios({
       method: "GET",
       url: `https://sellingpartnerapi-na.amazon.com/reports/2021-06-30/reports/${reportId}`,
@@ -87,32 +123,39 @@ async function getReportId(reportId) {
         "Content-Type": "application/json",
       },
     });
+
+    console.log("Report ID response:", JSON.stringify(response.data, null, 2));
+
     if (
       response.data.processingStatus === "DONE" ||
       response.data.reportDocumentId
     ) {
-      reportDocument(response.data.reportDocumentId);
-    } else if (response.data.processingStatus === "IN_PROGRESS") {
+      console.log("Processing status is DONE or reportDocumentId exists");
+      await reportDocument(response.data.reportDocumentId, programToken, accessToken);
+    } else if (response.data.processingStatus === "IN_PROGRESS" || response.data.processingStatus === "IN_QUEUE") {
+      console.log("Processing status is IN_PROGRESS or IN_QUEUE");
       setTimeout(() => {
-        reportDocument(response.data.reportDocumentId);
-      }, 30 * 1000);
+        getReportId(reportId, programToken, accessToken);
+      }, 30 * 1000); // 30-second delay
     }
-    console.log(response.data);
-    return response.data;
   } catch (error) {
-    console.error("Error fetching report ID:");
+    console.error("Error in getReportId:", error.message);
+
+    // Save the error to the database
+    await InventoryReport.updateOne(
+      { token: programToken },
+      { content: { error: error.message } }
+    );
+
     throw error;
   }
 }
 
-async function reportDocument(documentId) {
+async function reportDocument(documentId, programToken, accessToken) {
+  console.log("Entering reportDocument function with documentId:", documentId);
   try {
-    const accessToken = await getAccessToken();
-    console.log("Access Token:", accessToken);
-
-    // Make the API request to fetch the report document
     const response = await axios({
-      method: "get",
+      method: "GET",
       url: `https://sellingpartnerapi-na.amazon.com/reports/2021-06-30/documents/${documentId}`,
       headers: {
         "x-amz-access-token": accessToken,
@@ -120,34 +163,30 @@ async function reportDocument(documentId) {
       },
     });
 
-    console.log(
-      "Report document info:",
-      JSON.stringify(response.data, null, 2)
+    console.log("Report document response:", JSON.stringify(response.data, null, 2));
+
+    if (response.data && response.data.url) {
+      await downloadAndDecompressReport(response.data.url, programToken);
+    }
+  } catch (error) {
+    console.error("Error in reportDocument:", error.message);
+
+    // Save the error to the database
+    await InventoryReport.updateOne(
+      { token: programToken },
+      { content: { error: error.message } }
     );
 
-    // Download the report immediately using the URL from the response
-    if (response.data && response.data.url) {
-      await downloadAndDecompressReport(response.data.url);
-    }
-
-    return response.data;
-  } catch (error) {
-    console.error("Error fetching report document:");
-    if (error.response) {
-      console.error("Status:", error.response.status);
-      console.error("Response:", error.response.data);
-    } else {
-      console.error(error.message);
-    }
     throw error;
   }
 }
 
-async function downloadAndDecompressReport(url) {
+async function downloadAndDecompressReport(url, programToken) {
+  console.log("Entering downloadAndDecompressReport function with URL:", url);
   try {
     console.log("Downloading report from URL...");
     const response = await axios({
-      method: "get",
+      method: "GET",
       url: url,
       responseType: "arraybuffer",
     });
@@ -156,26 +195,47 @@ async function downloadAndDecompressReport(url) {
     const decompressed = await gunzip(response.data);
     const content = decompressed.toString("utf-8");
 
-    // Save both compressed and decompressed versions
-    await fs.writeFile("report.gz", response.data);
-    await fs.writeFile("report.json", content);
+    // Parse the decompressed content as JSON
+    const jsonData = JSON.parse(content);
 
-    console.log(
-      "Report saved as report.gz (compressed) and report.json (decompressed)"
+    // Log the JSON data if needed
+    console.log("Decompressed JSON data:", jsonData);
+
+    // Update the report in the database with the decompressed content
+    const updateResult = await InventoryReport.updateOne(
+      { token: programToken },
+      { $set: { content: jsonData } }
     );
+    console.log("Update result:", updateResult);
 
-    // Save to MongoDB
-    const report = new InventoryReport({
-      content: JSON.parse(content) // Assuming the content is JSON
-    });
-    await report.save();
     console.log("Report saved to MongoDB");
-
-    return content;
   } catch (error) {
-    console.error("Error downloading or decompressing report:", error.message);
+    console.error("Error in downloadAndDecompressReport:", error.message);
     throw error;
+  } finally {
+    // Ensure cleanup is always performed
+    cleanup();
   }
+}
+
+// Define a cleanup function
+function cleanup() {
+  console.log("Performing cleanup operations...");
+  
+  // Example: Clear temporary variables
+  let tempVariable = null;
+  
+  // Example: Close any open connections
+  // if (connection) {
+  //   connection.close();
+  // }
+  
+  // Example: Remove event listeners
+  // if (eventEmitter) {
+  //   eventEmitter.removeAllListeners();
+  // }
+
+  console.log("Cleanup completed.");
 }
 
 // Run the report document fetch and download
