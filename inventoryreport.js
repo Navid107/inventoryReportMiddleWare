@@ -21,9 +21,9 @@ function generateDates() {
   // Calculate the previous Sunday (6 days before the last Saturday)
   const previousSunday = new Date(lastSaturday);
   previousSunday.setDate(lastSaturday.getDate() - 6);
-
+  console.log('sunday ',previousSunday);
   // Format dates in ISO 8601 format
-  const formatDate = (date) => date.toISOString();
+  const formatDate = (date) => date.toISOString().replace('Z', '');
 
   return {
     dataStartTime: formatDate(previousSunday),
@@ -32,9 +32,9 @@ function generateDates() {
 }
 
 // Generate dates
-const dates = generateDates();
-const dataStartTime = dates.dataStartTime;
-const dataEndTime = dates.dataEndTime;
+//const dates = generateDates();
+const dataStartTime = '2025-02-02T19:00:00.000Z';
+const dataEndTime = '2025-02-08T19:00:00.000Z';
 
 async function getReport(req) {
   console.log("Starting session for getReport function");
