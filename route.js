@@ -1,7 +1,7 @@
 import express from 'express';
 import connectToMongoDB from './db.js';
 import InventoryReport from './models/InventoryReport.js';
-import { getReport } from './inventoryreport.js';
+import { getInventoryReport, getSalesReport  } from './inventoryreport.js';
 import authMiddleware from './authMiddleware.js';
 
 const router = express.Router();
@@ -16,7 +16,21 @@ router.get('/', (req, res) => {
 // route.js
 router.post('/inventory-report', async (req, res) => {
     try {
-        const result = await getReport(req);
+        const result = await getInventoryReport(req);
+        if (result.error) {
+            // Send the error response back to the client
+            return res.status(400).json({ error: result.error });
+        }
+        // Send the success response with the token
+        res.status(200).json({ message: 'Inventory report requested and saved to database.', token: result.token });
+    } catch (error) {
+        // Handle unexpected errors
+        res.status(500).send('Error requesting inventory report.');
+    }
+});
+router.post('/sales-report', async (req, res) => {
+    try {
+        const result = await getSalesReport(req);
         if (result.error) {
             // Send the error response back to the client
             return res.status(400).json({ error: result.error });

@@ -35,7 +35,79 @@ const dates = generateDates();
 const dataStartTime = dates.dataStartTime;
 const dataEndTime = dates.dataEndTime;
 
-async function getReport(req) {
+// Get Sales Report
+async function getSalesReport(req) {
+  console.log("Starting session for getReport function");
+  try {
+    const accessToken = req.headers["x-amz-access-token"];
+    if (!accessToken) {
+      throw new Error("x-amz-access-token is required");
+    }
+
+    console.log("Access token received:", accessToken);
+
+    const payload = {
+      marketplaceIds: ["ATVPDKIKX0DER"],
+      reportType: "GET_VENDOR_INVENTORY_REPORT",
+      reportOptions: {
+        reportPeriod: "WEEK",
+        distributorView: "SOURCING",
+        sellingProgram: "RETAIL",
+      },
+      dataStartTime: dataStartTime,
+      dataEndTime: dataEndTime,
+    };
+
+    console.log("Payload for report creation:", payload);
+
+    const response = await axios({
+      method: "POST",
+      url: "https://sellingpartnerapi-na.amazon.com/reports/2021-06-30/reports",
+      headers: {
+        "x-amz-access-token": accessToken,
+        "Content-Type": "application/json",
+      },
+      data: payload,
+    });
+
+    console.log("Report creation response:", JSON.stringify(response.data, null, 2));
+
+    if (response.data.reportId) {
+      const programToken = generateToken();
+      console.log("Generated program token:", programToken);
+      const report = new InventoryReport({
+        token: programToken,
+        content: response.data,
+      });
+      console.log("Response data to be saved:", JSON.stringify(response.data, null, 2));
+      const savedReport = await report.save();
+      console.log("Saved report:", savedReport);
+      await getReportId(response.data.reportId, programToken, accessToken);
+
+      // End session after all operations
+      endSession();
+      return { token: programToken };
+    } else {
+      throw new Error("Report ID not found in the response");
+    }
+  } catch (error) {
+    console.error("Error in getReport:", error.message);
+
+    // Save the error to the database
+    const errorReport = new InventoryReport({
+      token: generateToken(),
+      content: { error: error.message },
+    });
+    await errorReport.save();
+
+    // End session in case of error
+    endSession();
+    return { error: error.message };
+  }
+}
+
+
+async function getInventoryReport(req) {
   console.log("Starting session for getReport function");
   try {
     const accessToken = req.headers["x-amz-access-token"];
@@ -238,4 +310,4 @@ function cleanup() {
 }
 
 // Run the report document fetch and download
-export { getReport };
+export { getInventoryReport, getSalesReport };
