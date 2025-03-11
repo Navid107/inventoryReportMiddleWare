@@ -48,7 +48,7 @@ async function getSalesReport(req) {
 
     const payload = {
       marketplaceIds: ["ATVPDKIKX0DER"],
-      reportType: "GET_VENDOR_INVENTORY_REPORT",
+      reportType: "GET_VENDOR_SALES_REPORT",
       reportOptions: {
         reportPeriod: "WEEK",
         distributorView: "SOURCING",
